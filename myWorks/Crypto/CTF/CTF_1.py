@@ -11,8 +11,8 @@ from sympy import Matrix
 
 hashlen = 5
 
-url, auth = 'http://131.155.23.143:8803', ('tuurwillio', 'ilovecrypto')
-sid, token = 20242009, 'cb903bf53b72447b6c7577a586fb30dfb2e04983'
+url, auth = 'http://example', ('user', 'pw')
+sid, token = 'ID', 'token'
 
 sha = lambda m: int(hashlib.sha256((str(sid) + m).encode()).hexdigest()[:2*hashlen],16)
 

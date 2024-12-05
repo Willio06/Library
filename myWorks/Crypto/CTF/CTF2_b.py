@@ -9,8 +9,8 @@ from scipy.linalg import inv
 import csv
 from sympy import Matrix
 
-url, auth = 'http://131.155.23.143:8802', ('tuurwillio', 'ilovecrypto')
-sid, token = 20242009, '79df17669582bd48b5c6010678e67fe7bb8a032b '
+url, auth = 'http://example', ('user', 'pw')
+sid, token = 'ID', 'token'
 
 req = requests.Session()
 req.cookies['token'] = token
