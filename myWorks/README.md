@@ -32,5 +32,5 @@ The works focus on theoretical foundations, practical implementations, and indus
 
 ### 4. **Industry Collaboration with Canon: Spectral Reflectance of CMYK Values**
 - **Description**:
-project on finding a model between spectral reflectence of different colours on different wavelengths, to CYMK ink values in a printer, for different types of substrate aka paper. our model, the leaf model, improved upon the already used − l o g ( x ) model used by Canon to linearize the data.
+project on finding a model between spectral reflectence of different colours on different wavelengths, to CYMK ink values in a printer, for different types of substrate aka paper. our model, the leaf model, improved upon the already used $-\log(x)$ model used by Canon to linearize the data.
 
